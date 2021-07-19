@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(https://anotabahia.com/wp-content/uploads/2021/01/anotabahia-festival-de-street-art-da-bahia-vai-acontecer-em-salvador-santo-amaro-e-castro-alves-pexel.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(255, 217, 0, 0.7);
+    align-items: center;
+    z-index: 9999;
+}
+nav #logo {
+    font-size: 2em;
+    transition: .2s;
+}
+nav #logo:hover {
+    background-color: rgb(160, 133, 98);
+    border-radius: 2px;
+}
+nav #logo h1 {
+    cursor: pointer;
+    transition: .2s;
+}
+nav #logo h1:hover {
+    color: cornsilk;
+}
+nav #options {
+    display: flex;
+    flex-direction: row;
+}
+nav #options #search {
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+}
+div#search ion-icon  {
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    transition: .2s;
+    cursor: pointer;
+}
+div#search ion-icon:hover {
+    color: cornsilk;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-right: 20px;
+    height: 50px;
+    color: #000;
+    background-color: transparent;
+    border-radius: 2px;
+}
+nav ul li {
+    display: flex;
+    height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    align-items: center;
+    margin: auto 0;
+    list-style: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+nav ul li:hover {
+    background-color: rgb(160, 133, 98);
+    color: cornsilk;
+    border-radius: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+nav ul li a:hover {
+    color: cornsilk;
+}
+
+div#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*------ ARTE URBANA --------*/
+
+div#arte-urbana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+div#arte-urbana  h1 {
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: #000;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.692);
+}
+div#arte-urbana div#container {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+div#container div#text {
+    line-height: 1.3em;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+div#container div#images {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+div#images div#img1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/18/OlindaGraffiti.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#images div#img2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://static.todamateria.com.br/upload/55/14/55147139d2e1a-arte-urbana.jpg);
+    background-size: cover;
+    background-position: top;
+}
+div#images div#img3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://dynaimage.cdn.cnn.com/cnn/q_auto,w_412,c_fill,g_auto,h_412,ar_1:1/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F131014154324-11-banksy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*-------- POP ART ---------*/
+
+ div#pop-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+div#pop-art  h1 {
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: #000;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.692);
+}
+div#pop-art div#container {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+div#container div#text {
+    line-height: 1.3em;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+div#container div#pop-images {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+div#pop-images div#img1 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://www.designerd.com.br/wp-content/uploads/2015/10/Pop-Art-contribuicao-para-o-design-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div#pop-images div#img2 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkKp2JRyc9TH9VuV03I3AmloqVlIHt3k7lpR7NsnnJf07iAkFccy4ARKYCBCsR2x4Vok&usqp=CAU);
+    background-size: cover;
+    background-position: top;
+}
+div#pop-images div#img3 {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://static.todamateria.com.br/upload/mi/ch/michael2.jpg);
+    background-size: cover;
+    background-position: center;
+} 
